@@ -1,0 +1,74 @@
+body{
+    background-image: url("../img/night.jpeg");
+   }    
+
+a   {
+    color: #fff;
+   }
+
+a:hover {
+    text-decoration: none;
+   } 
+
+
+.container {
+    width:450px;
+    height: 500px;
+    background-color: rgba(24, 33, 52, 0.7);
+    margin: 250px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #335e66;
+   }
+
+.login, .password {
+    width: 300px;
+    height:50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.iconLogin {
+    width:120px;
+    height:120px;
+    margin: -60px 0 30px 0;
+    border: 5px solid #1a394f;
+    border-radius: 50%;
+    box-shadow: 0 -5px 0 #354649;
+}
+
+.loginBtn {
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #1e7b92;
+    border: none;
+    border-radius: 8px;
+    border-bottom: 4px solid hsl(188, 47%, 30%);
+    cursor: pointer;
+   } 
+   
+.loginBtn:hover {
+    transition: all 0.5s;
+    background: #fff;
+    color: #2c536c;
+   }
+
+.form-input:hover::before {
+        color: #319ebc;
+        transition: all 0.3s;
+    }    
+
+.form-input input:hover {
+        box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+       }
+
+.forgetPasswordBtn {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgetPasswordBtn:hover {
+    color: rgb(247, 173, 173)
+}
