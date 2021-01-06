@@ -1,0 +1,20 @@
+body{
+    background-image: url("../img/night.jpeg");
+   }    
+
+a   {
+    color: #fff;
+   }
+
+a:hover {
+    text-decoration: none;
+   }
+
+.form-input:hover::before {
+    color: #319ebc;
+    transition: all 0.3s;
+}    
+
+.form-input input:hover {
+    box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+   }
