@@ -1,6 +1,6 @@
 # Testing of the login form: 
 
-* I wrote a simple login form (HTML/CSS) for testing. In the future, I plan to add a functional part in JavaScript.
+* I wrote a simple login form https://tarasovartem.github.io/Sample_Test_Cases_for_a_Login/ (HTML/CSS) for testing. In the future, I plan to add a functional part in JavaScript.
 
 * Testing:
 1. Writing a test strategy.

@@ -7,7 +7,7 @@ Test case # 1 Form verification - Positive
 
 # Steps:
 
-1. Go to the www.Www.com. (example of the website)
+1. Go to the https://tarasovartem.github.io/Sample_Test_Cases_for_a_Login/. (example of the website)
 
 2. Log in under the administrator account (login - administrator, password-12345).
 
