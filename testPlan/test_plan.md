@@ -53,9 +53,9 @@ This document describes contain all information about approach and methodologies
 
 # Test Strategy: (in progress)
 
-    1. Entry Criteria
+    * Entry Criteria
 
-    2. Test Methods (manual, automated)
+    * Test Methods (manual, automated)
 
     Testing is the process of attempting to find discrepancies between the program and its functional specification/ requirements. 
     The goal is to make sure that all functions of the "Forms" work correctly.
@@ -65,8 +65,8 @@ This document describes contain all information about approach and methodologies
     ** Manual functional testing – is considered as the second main method of the application testing.
 
 
-    3. Test types (functional, regression, new feature)
+    * Test types (functional, regression, new feature)
 
-    4. Test levels (smoke)
+    * Test levels (smoke)
 
 # Testing Schedule:
