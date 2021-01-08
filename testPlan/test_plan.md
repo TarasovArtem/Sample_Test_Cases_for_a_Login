@@ -60,8 +60,9 @@ This document describes contain all information about approach and methodologies
     Testing is the process of attempting to find discrepancies between the program and its functional specification/ requirements. 
     The goal is to make sure that all functions of the "Forms" work correctly.
 
-    ## Automated functional testing – is considered as the main method of the application testing.
-    ## Manual functional testing – is considered as the second main method of the application testing.
+    ** Automated functional testing – is considered as the main method of the application testing.
+
+    ** Manual functional testing – is considered as the second main method of the application testing.
 
 
     3. Test types (functional, regression, new feature)
