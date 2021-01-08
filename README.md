@@ -1,4 +1,4 @@
-# Testing of the login form: 
+# Testing of forms: 
 
 * I wrote a few simple forms https://tarasovartem.github.io/Sample_Test_Cases_for_a_Login/ (HTML/CSS) for testing. In the future, I plan to add few forms and a functional part on  JavaScript/Typescript plus some framework.
 
