@@ -10,18 +10,25 @@
 <body>
     <div class="container">
         <img class="iconLogin" src="img/iconLogin.png">
-        <form>
+        <form class="form" method="post" action="" enctype="multipart/form-data">
             <div class="form-input">
-                <input class="login" type="text" name="login" placeholder="Login">
+                <input class="login" type="text" data-validate-field="text" name="login" placeholder="Login">
             </div>
             <div class="form-input">
-                <input class="password" type="password" name="password" placeholder="Password">
+                <input class="password" type="password" data-validate-field="password" name="password" placeholder="Password">
             </div>
-            <input href="#" class="signUpBtn" type="submit" name="submit" value="SIGN UP">
+            <a href="pages/registration.html">
+                <input class="signUpBtn" type="button" name="submit" value="SIGN UP">
+            </a>
+            
             <input class="loginBtn" type="submit" name="submit" value="LOG ON"><br />
 
             <a href="pages/forgotPassword.html" class="forgotPasswordBtn">Forgot password</a>
         </form>
-    </div>    
+    </div>  
+    
+    
+    <script type="text/javascript" src="scripts/just-validate.min.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
 </body>
 </html>

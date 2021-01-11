@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/indexForm.css" type="text/css">
+    <link rel="stylesheet" href="../style/registration.css" type="text/css">
     <title>Registration</title>
 </head>
 <body>
+    <div class="container_registration">
+        <img class="iconLogin" src="../img/iconLogin.png">
+        <form class="form" method="post" action="" enctype="multipart/form-data">
+            <div class="form-input">
+                <input class="registrationName" type="text" data-validate-field="text" name="name" placeholder="Name">
+            </div>           
+            <div class="form-input">
+                <input class="registrationlogin" type="text" data-validate-field="text" name="login" placeholder="Login">
+            </div>
+            <div class="form-input">
+                <input class="registrationEmail" type="email" data-validate-field="email" name="email" placeholder="Email@">
+            </div>
+            <div class="form-input">
+                <input class="registrationPassword" type="password" data-validate-field="password" name="password" placeholder="Password">
+            </div>
+            <a href="registration.html">
+                <input class="cancel" type="button" name="submit" value="CANCEL">
+            </a>
+            <a href="index.html">
+                <input class="EnterBtn" type="submit" name="submit" value="ENTER">
+            </a>
+        </form>
+    </div>  
     
+    
+    <script type="text/javascript" src="scripts/just-validate.min.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
 </body>
 </html>
